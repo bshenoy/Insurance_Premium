@@ -127,16 +127,18 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
-
+saved_models/
 insurance/artifact/
+
+
+
 home.py
 
 templates/index.html
 templates/predict.html
 
 
-insurance/entity/experiment.py
-insurance/entity/insurancepredictor.py
+
 insurance/entity/modelfactory.py
 templates/eda.html
 templates/experiment_histroy.html
@@ -150,9 +152,8 @@ templates/train.html
 
 
 
-insurance/pipeline/pipeline.py
-insurance/util/util.py
-requirements.txt
+
+
+
 templates/index.html
 templates/predict.html
-insurance/components/data_transformation.py
