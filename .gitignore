@@ -146,10 +146,11 @@ templates/saved_models_files.html
 templates/train.html
 
 
-config/config.yaml
+
 
 insurance/pipeline/pipeline.py
 insurance/util/util.py
 requirements.txt
 templates/index.html
 templates/predict.html
+insurance/components/data_transformation.py

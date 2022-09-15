@@ -1,6 +1,6 @@
 import zipfile
 from insurance.logger import logging
-from insurance.exception import insuranceException
+from insurance.exception import InsuranceException
 from insurance.entity.config_entity import DataIngestionConfig
 from insurance.entity.artifact_entity import DataIngestionArtifact
 from insurance.constant import *
@@ -17,7 +17,7 @@ class DataIngestion:
             logging.info(f"{'+'*20} Data Ingestion Log Started .{'+'*20}")
             self.data_ingestion_config=data_ingestion_config
         except Exception as e:
-            raise insuranceException(e,sys) from e
+            raise InsuranceException(e,sys) from e
 
     def download_insurance_data(self,) -> str:
         try:
@@ -39,7 +39,7 @@ class DataIngestion:
             return tgz_file_path
 
         except Exception as e:
-            raise insuranceException(e,sys) from e
+            raise InsuranceException(e,sys) from e
 
     def extract_zip_file(self,zip_file_path:str):
         try:
@@ -57,7 +57,7 @@ class DataIngestion:
             logging.info(f"{'*'*20}EXtraction Completed {'*'*20}")
 
         except Exception as e:
-            raise insuranceException(e,sys) from e
+            raise InsuranceException(e,sys) from e
 
     def split_data_as_train_test(self,)-> DataIngestionArtifact:
         try:
@@ -96,7 +96,7 @@ class DataIngestion:
             logging.info(f"{'*'*20} Data Ingestion Successfully {'*'*20}")
             return data_ingestion_artifact
         except Exception as e:
-            raise insuranceException(e,sys) from e
+            raise InsuranceException(e,sys) from e
 
     def initiate_data_ingestion(self,)->DataIngestionArtifact:
         try:
@@ -104,7 +104,7 @@ class DataIngestion:
             self.extract_zip_file(zip_file_path=zip_file_path)
             return self.split_data_as_train_test()
         except Exception as e:
-            raise insuranceException(e,sys) from e
+            raise InsuranceException(e,sys) from e
 
     def __del__(self):
         logging.info(f"{'#'*20} Data Ingestion Log Completed .{'#'*20} \n\n")
