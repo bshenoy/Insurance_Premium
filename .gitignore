@@ -127,3 +127,29 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+
+templates/index.html
+templates/predict.html
+
+
+insurance/entity/experiment.py
+insurance/entity/insurancepredictor.py
+insurance/entity/modelfactory.py
+templates/eda.html
+templates/experiment_histroy.html
+templates/files.html
+templates/header.html
+templates/log.html
+templates/log_files.html
+templates/saved_models_files.html
+templates/train.html
+
+
+config/config.yaml
+
+insurance/pipeline/pipeline.py
+insurance/util/util.py
+requirements.txt
+templates/index.html
+templates/predict.html

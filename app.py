@@ -2,12 +2,20 @@ from flask import Flask
 from insurance.logger import logging
 from insurance.exception import InsuranceException
 import sys, os
+from insurance.pipeline.pipeline import Pipeline
 
-app = Flask(__name__)
-@app.route('/', methods=['POST', 'GET'])
-def welcome():
-    return "hello"
+def main():
+    pipe=Pipeline()
+    pipe.r
 
-if __name__=="__main__":
-    app.run()
+
+
+
+# app = Flask(__name__)
+# @app.route('/', methods=['POST', 'GET'])
+# def welcome():
+#     return "hello"
+
+# if __name__=="__main__":
+#     app.run()
 
