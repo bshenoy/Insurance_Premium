@@ -132,22 +132,6 @@ insurance/artifact/
 
 
 
-home.py
-
-templates/index.html
-templates/predict.html
-
-
-
-
-templates/eda.html
-
-templates/files.html
-templates/header.html
-templates/log.html
-templates/log_files.html
-templates/saved_models_files.html
-templates/train.html
 
 
 
@@ -155,5 +139,9 @@ templates/train.html
 
 
 
-templates/index.html
-templates/predict.html
+
+
+
+
+
+
