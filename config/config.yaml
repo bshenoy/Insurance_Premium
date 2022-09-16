@@ -3,13 +3,12 @@ training_pipeline_config:
   artifact_dir: artifact
 
 data_ingestion_config:
-  dataset_download_url: https://github.com/bshenoy/Insurance_Premium/blob/main/archivefile.zip?raw=true
+  dataset_download_url: https://raw.githubusercontent.com/bshenoy/Insurance_Premium/main/archivefile.tgz
   raw_data_dir: raw_data
   tgz_download_dir: tgz_data
   ingested_dir: ingested_data
   ingested_train_dir: train
   ingested_test_dir: test 
-  
 
 
 

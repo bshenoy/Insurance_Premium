@@ -139,9 +139,9 @@ templates/predict.html
 
 
 
-insurance/entity/modelfactory.py
+
 templates/eda.html
-templates/experiment_histroy.html
+
 templates/files.html
 templates/header.html
 templates/log.html
