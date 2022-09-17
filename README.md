@@ -10,6 +10,9 @@ Dataset description
     Smoker: Whether the insurance holder smokes or not
     Region: Residential area of the person
     Expenses: Individual medical costs billed by health insurance
+------------------
+
+
 
 APPROACH:
 Loading the dataset using Pandas and performed basic checks like the size of the data, data type of each column and having any missing values. Also checked the uniq values of categorical columns.
