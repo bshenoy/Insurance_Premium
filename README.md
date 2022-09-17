@@ -42,10 +42,15 @@ Software and account Requirement.
 ------------------
 
 Github Account
+
 [Heroku Account](https://dashboard.heroku.com/login)
+
 VS Code IDE
+
 GIT cli
+
 GIT Documentation
+
 Docker
 
 ------------------
