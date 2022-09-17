@@ -1,5 +1,6 @@
 # Insurance_Premium
-To give people an estimate of how much they need based on their individual health situation. After that, customers can work with any health insurance carrier and its plans and perks while keeping the projected cost from our study in mind. This can assist a person in concentrating on the health side of an insurance policy rather than the ineffective part.
+AIM: To give people an estimate of how much they need based on their individual health situation. After that, customers can work with any health insurance carrier and its plans and perks while keeping the projected cost from our study in mind. This can assist a person in concentrating on the health side of an insurance policy rather than the ineffective part.
+------------------
 
 Dataset description
 
@@ -12,10 +13,9 @@ Dataset description
     Expenses: Individual medical costs billed by health insurance
 ------------------
 
-
-
 APPROACH:
 Loading the dataset using Pandas and performed basic checks like the size of the data, data type of each column and having any missing values. Also checked the uniq values of categorical columns.
+
 Performed Exploratory data analysis:
 
 To get even more better insights visualized independent feature with the target feature
@@ -31,6 +31,8 @@ Like LinearRegression, DecissionTreeRegressor, GradienBoostingRegressor and Rand
 
 Deployment: Deployed the best trained model using Flask, which works in the backend part while for the frontend used HTML5.
 
+------------------
+
 Software and account Requirement.
 
 Github Account
@@ -39,6 +41,8 @@ VS Code IDE
 GIT cli
 GIT Documentation
 Docker
+
+------------------
 
 Deployed app link
 Heroku app link:  https://insuranceprem.herokuapp.com
