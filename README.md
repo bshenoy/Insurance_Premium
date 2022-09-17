@@ -55,6 +55,14 @@ Docker
 
 ------------------
 
-Deployed app link
+View project using following link
 ------------------
 Heroku app link:  https://insuranceprem.herokuapp.com
+
+View of project html page
+------------------
+
+![image](https://user-images.githubusercontent.com/75008368/190839096-ac5a5215-5efb-42cd-a35b-e81444524cf3.png)
+
+
+
